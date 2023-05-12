@@ -142,7 +142,7 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 40px; 
-     position: relative; 
+     
 }
 
 .menu-item{
@@ -151,6 +151,7 @@ margin-bottom: 8px;
 }
 
 .menu-link {
+   position: relative;  
     display: block;
   padding: 24px 0;     
 font-weight: 500;
