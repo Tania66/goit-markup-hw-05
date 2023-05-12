@@ -142,11 +142,11 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 40px; 
-    
+     position: relative; 
 }
 
 .menu-item{
-    position: relative; 
+   
  color: #404bbf; 
 }
 
@@ -672,7 +672,8 @@ color: #434455;
 }
 
 
-.cards-link:hover{
+.cards-link:hover,
+.cards-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -680,12 +681,6 @@ color: #434455;
     
 }
 
-.cards-link:focus{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
-}
 
 .card-link-img-wrapper{
     position: relative;
